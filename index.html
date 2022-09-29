@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--fonts-->
+  <link rel="stylesheet" href="<link href="
+    https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Catamaran:wght@300&display=swap">
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#aboutme" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Intro-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro"><strong>Jesse Morales</strong></h1>
+    <p class="section__subtitle section__subtitle--intro">Computer Science Undergraduate<br>Utah Tech University</p>
+    <p class="section__subtitle section__subtitle--introscroll">Scroll for Projects</p>
+  </section>
+
+  <!--Projects-->
+  <section class="projects" id="projects">
+    <h2 class="section__title section__title--projects">Projects</h2>
+    <div class="projectdescriptions">
+      <div class="project project1">
+        <h3>Project 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqui.</p>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="project project2">
+        <h3>Project 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqui.</p>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="project project3">
+        <h3>Project 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqui.</p>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="project project4">
+        <h3>Project 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqui.</p>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--AboutME-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">About Me</h2>
+    <div class="about-me__lower">
+      <div class="about-me__left">
+        <div class="about-me__CS">
+          <p class="section__subtitle section__subtitle--about"><strong>Computer Science Student at Utah Tech
+              University</strong></p>
+        </div>
+
+        <div class="about-me__par">
+          <p>I am Jesse Morales, a 20 year old third year Computer Science student. Currently, I am looking for
+            an oppurtunity for work in the field, and am open to any avenue. The broadness of the field is both exciting
+            and terrifying.</p>
+          <p>Besides a few freelance websites I made in highschool, I have no professional experience. However,
+            I am eager to tackle an internship or job oppurtunity for entry level software engineers, and am excited to
+            see what this field has
+            in store for me.</p>
+        </div>
+      </div>
+
+      <div class="about-me__right">
+        <div class="about-me__resume">
+          <p class="section__subtitle section__subtitle--resume"><strong>My Resume</strong></p>
+        </div>
+        <div class="about-me__resumeimg">
+          <img src="./img/resume.png">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Contact-->
+  <section class="contact-container" id="contact">
+    <div class="contact-container__form">
+      <div class="contact-container__form-contactinfo">
+        <div class="contact-info-title">
+          <h3 class="section__title section__title--contact">Contact Me</h3>
+        </div>
+        <div class="contact-info-socials">
+          <h3 class="section__title section__title--contact">Socials</h3>
+        </div>
+        <div class="contact-info-social_list">
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="" class="social-list__link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link">
+                <i class="fa-brands fa-stack-overflow"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-container__form-form">
+        <form action="index.html">
+          <div class="input-container">
+            <input type="text" name="name" class="input">
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input">
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input">
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="contact-btn">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
