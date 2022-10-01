@@ -21,6 +21,7 @@
     --clr-ltan: #fbe1b6;
     --clr-blue: #7388a0;
     
+    --fs-super: 10rem;
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -150,12 +151,17 @@ header {
 /*Intro*/
 .intro {
     position: relative;
+    padding: 0;
     display: grid;
     gap: 1.5rem;
     grid-template-areas:
         'one'
         'two'
         'three';
+}
+
+.section__title--intro{
+    font-size: var(--fs-super);
 }
 
 @media (min-width: 50em) {
