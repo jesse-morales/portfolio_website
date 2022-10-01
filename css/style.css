@@ -518,11 +518,11 @@ header {
 
     .social-list {
         list-style: none;
-        display: inline;
+        width: 90%;
     }
 
     .contact-info-title{
-        padding: 10% 0 30% 0;
+        padding: 10% 0 10% 0;
     }
 
     .contact-info-socials{
@@ -531,12 +531,17 @@ header {
 
     .contact-info-social_list{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         width: 100%;
+        align-items: center;
     }
 
     .social-list__item{
-        font-size: 2rem;
+        font-size: 4rem;
         display: inline;
-        padding: 0 5% 0 5%;
+        padding: 0 5% 0 10%;
+    }
+
+    .social-list__item a{
+    text-decoration: none;
     }
